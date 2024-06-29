@@ -26,7 +26,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Wheels                                  | 2        | 50           |
 | **Total Cost for 12 components**        |          | **14641**    |
 
-## Components to be Acquired
+### Components to be Acquired
 
 | Component                                                         | Quantity | Cost (in Rs) |
 |-------------------------------------------------------------------|----------|--------------|
