@@ -34,3 +34,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Raspberry Pi Cooling system (aluminum case with double fans)      | 1        | 500          |
 | **Total Cost for 2 additional components**                        |          | **1300**     |
 
+## Pinout Diagram
+## Demo Video
+## Result
+## Conclusions
