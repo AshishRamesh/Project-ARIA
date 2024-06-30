@@ -47,6 +47,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Cooling system           | 1        | Raspberry Pi Cooling system (aluminum case with Double fans)           | [Cooling System](https://www.amazon.com/Raspberry-Aluminum-Heatsink-Cooling-Cooler/dp/B07349HT26) |
 
 ## Pinout Diagram
+![image](assets/pinout_diagram.jpeg)
 ### Table for Pin Connections
 
 | Component                    | Pin Configuration          | Description                                                                      |
