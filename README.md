@@ -1,38 +1,50 @@
 # Project-ARIA
 ## Introduction
 <p align="justify">
-Inefficiencies and safety risks in warehouses, healthcare, public spaces, manufacturing, infrastructure, and agriculture arise from reliance on manual and semi-automated systems. These systems lead to higher labor costs, operational delays, and errors. Advanced autonomous navigation solutions are needed to streamline operations, enhance accuracy, ensure safety, and improve scalability. Implementing such technology can significantly reduce operational costs, improve service quality, and boost productivity across these sectors.
+Inefficiencies and safety risks in warehouses, healthcare, public spaces, manufacturing, infrastructure, and agriculture arise from reliance on manual and semi-automated systems. These systems lead to higher labor costs, operational delays, and errors. Advanced autonomous navigation solutions are needed to streamline operations, enhance accuracy, ensure safety, and improve scalability. Implementing such technology can significantly reduce operational costs, enhance the quality of service, and boost productivity across these sectors.
 
 ## Overview
 <p align="justify">
 Our solution is a ROS-based autonomous navigation robot designed for versatile applications across various industries. It utilizes advanced sensors and algorithms to navigate indoor environments such as warehouses, hospitals, public spaces, manufacturing facilities, and agricultural sites. By automating routine tasks, our robot enhances operational efficiency, reduces human error, and improves safety. Its innovative design allows for seamless integration into existing workflows, scalable deployment, and adaptability to different use cases, making it a comprehensive solution for improving productivity and service quality across multiple sectors.
 
-## Components required with Bill of Materials
-### Components That are already  Acquired / Owned :
+## Table of Contents
 
-| Component                               | Quantity | Cost (in Rs) |
-|-----------------------------------------|----------|--------------|
-| Raspberry Pi 3b+                        | 1        | 3678         |
-| Pi cam                                  | 1        | 1800         |
-| Buck Converter LM2596                   | 1        | 48           |
-| 3.7 V Li-ion batteries                  | 3        | 240          |
-| 3 Cell Battery case                     | 1        | 20           |
-| RP Lidar A1M8                           | 1        | 8450         |
-| Caster wheel                            | 1        | 23           |
-| L298N Motor Driver                      | 1        | 100          |
-| Arduino Nano                            | 1        | 178          |
-| Slide Switches                          | 2        | 4            |
-| MDF Board (15x20 cm)                    | 1        | 50           |
-| Wheels                                  | 2        | 50           |
-| **Total Cost for 12 components**        |          | **14641**    |
+- [Demo]()
+- [Components](#Components-required-with-Bill-of-Materials)
+- [Circuit](#Pinout-Diagram)
+- [Code Base](#)
+- [Technologies Used](#technologies-used)
+- [Packages Used](#packages-used)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Running the Application](#running-the-application)
+- [Authors](#authors)
+- [Result](#Result)
+- [Conclusions](#Conclusions)
+
+
+## Components required with Bill of Materials
+### Components That are Already  Acquired / Owned :
+
+| Component                | Quantity | Description                                                            | Links to Products                  |
+|--------------------------|----------|------------------------------------------------------------------------|------------------------------------|
+| Raspberry Pi 3b+         | 1        | Microprocessor Board                                                   | [Raspberry Pi 3b+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) |
+| Pi cam                   | 1        | Standard Pi Cam for Surveillance                                       | [Pi camera](https://www.raspberrypi.org/products/camera-module-v2/) |
+| Buck Converter           | 1        | Step down or Step up Voltage device                                    | [Buck Converter](https://www.amazon.com/LM2596-Converter-Power-Supply-Module/dp/B00C0KL1OM) |
+| Li-Po battery            | 1        | 11.5V Li-Po battery for Power Requirements                             | [LiPo battery 3s](https://www.amazon.com/11-1V-2200mAh-LiPo-Battery/dp/B07RJD53Z9) |
+| Lidar                    | 1        | RP Lidar A1M8 For Mapping the required area                            | [Lidar A1M8](https://www.slamtec.com/en/Lidar/A1) |
+| Caster wheel             | 1        | For Smooth running and weight Balancing of the Bot                     | [Castor wheel](https://www.amazon.com/Caster-Wheels/s?k=Caster+Wheels) |
+| Motor Driver             | 1        | L298N Motor Driver to Run the Motors                                   | [Motor Driver](https://www.amazon.com/HiLetgo-Controller-Stepper-Heatsink-Arduino/dp/B00J4Z6892) |
+| Arduino Nano             | 1        | Microcontroller board for Sending the signal from Pi to Motor driver   | [Arduino Nano](https://store.arduino.cc/products/arduino-nano) |
+| Slide Switches           | 2        | Switches for Powering Up or Down the Bot                               | [Slide Switch](https://www.amazon.com/Slide-Switches/s?k=Slide+Switches) |
+| Wheels                   | 2        | To Run the Bot Forward, Reverse or in Required Direction               | [Wheels](https://www.amazon.com/Robot-Wheels/s?k=Robot+Wheels) |
 
 ### Components to be Acquired
 
-| Component                                                         | Quantity | Cost (in Rs) |
-|-------------------------------------------------------------------|----------|--------------|
-| Gear Motor Encoder D type                                         | 2        | 800          |
-| Raspberry Pi Cooling system (aluminum case with double fans)      | 1        | 500          |
-| **Total Cost for 2 additional components**                        |          | **1300**     |
+| Component                | Quantity | Description                                                            | Links to Products                  |
+|--------------------------|----------|------------------------------------------------------------------------|------------------------------------|
+| Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://www.amazon.com/DC-Geared-Motor-Encoder-Robot/dp/B07Y3N1CVX) |
+| Cooling system           | 1        | Raspberry Pi Cooling system (aluminum case with Double fans)           | [Cooling System](https://www.amazon.com/Raspberry-Aluminum-Heatsink-Cooling-Cooler/dp/B07349HT26) |
 
 ## Pinout Diagram
 ## Demo Video
