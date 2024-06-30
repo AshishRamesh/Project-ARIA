@@ -47,6 +47,33 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Cooling system           | 1        | Raspberry Pi Cooling system (aluminum case with Double fans)           | [Cooling System](https://www.amazon.com/Raspberry-Aluminum-Heatsink-Cooling-Cooler/dp/B07349HT26) |
 
 ## Pinout Diagram
+### Table for Pin Connections
+
+| Component                    | Pin Configuration          | Description                                                                      |
+|------------------------------|----------------------------|----------------------------------------------------------------------------------|
+| RP Lidar A1M8 Micro USB Port | USB Port 2                 | Lidar Connected to the Raspberry Pi’s USB Port 2                                 |
+| Arduino Nano Micro USB Port  | USB Port 1                 | Nano Connected to the Raspberry Pi’s USB Port 1                                  |
+| Pi camera                    | CSI Camera Port            | Camera Connected to the Raspberry Pi’s Camera port                               |
+| Motor Driver control pin 1   | PD6                        | CP1 of Motor driver connection to Microcontroller Nano                           |
+| Motor Driver control pin 2   | PD10                       | CP2 of Motor driver connection to Microcontroller Nano                           |
+| Motor Driver control pin 3   | PD9                        | CP3 of Motor driver connection to Microcontroller Nano                           |
+| Motor Driver control pin 4   | PD5                        | CP4 of Motor driver connection to Microcontroller Nano                           |
+| Motor Driver 5V out          | Vin                        | Power supply to Arduino Nano from Motor Driver                                   |
+| Encoder Motor1 +ve           | OUT1                       | Motor1 Connections to Driver (To run the motor)                                  |
+| Encoder Motor1 -ve           | OUT2                       | Motor1 Connections to Driver                                                     |
+| Encoder Motor1 VCC           | 5v out                     | Power supply for E.motor from MotorDriver                                        |
+| M1 Encoder A (interrupt)     | PC4                        | Connections to pin A4 of Microcontroller to determine the Speed of motor          |
+| M1 Encoder B (direction)     | PC5                        | Connections to pin A5 of Microcontroller to determine the Direction and position of Motor |
+| Encoder Motor2 +ve           | OUT3                       | Motor2 Connections to Driver                                                     |
+| Encoder Motor2 -ve           | OUT4                       | Motor2 Connections to Driver                                                     |
+| Encoder Motor2 VCC           | 5v out                     | Power supply for E.motor from MotorDriver                                        |
+| M2 Encoder A (interrupt)     | PD2                        | Connections to pin D2 of Microcontroller to determine the Speed of motor          |
+| M2 Encoder B (direction)     | PD3                        | Connections to pin D3 of Microcontroller to determine the Direction and position of Motor |
+| GND pins of Encoder Motors   | GND                        | Connections to GND pin of Motor driver                                           |
+| Buck converter out +         | 5v Vin                     | Reduced voltage power supply from BC to Pi                                       |
+| Li-Po Battery +ve            | 12v Vin of MD, In+ of BC   | Supplying equal power to both Motor Driver and BC by making it short             |
+| GND Pins                     | Common Ground              | All the GND Pins are shorted to make One common Ground                           |
+
 ## Demo Video
 ## Result
 ## Conclusions
