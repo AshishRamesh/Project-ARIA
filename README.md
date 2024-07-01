@@ -13,7 +13,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 - [Components](#Components-required-with-Bill-of-Materials)
 - [Hardware](#Hardware)
 - [Code Base](#)
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#Technologies-Used)
 - [Packages Used](#packages-used)
 - [Getting Started](#getting-started)
 - [Folder Structure](#Folder-Structure)
@@ -91,6 +91,18 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Li-Po Battery +ve            | 12v Vin of MD, In+ of BC   | Supplying equal power to both Motor Driver and BC by making it short             |
 | GND Pins                     | Common Ground              | All the GND Pins are shorted to make One common Ground                           |
 
+## Technologies Used
+
+<div style="border: 1px solid black; padding: 10px;">
+
+- **ROS 2 Humble**: The Robot Operating System (ROS) 2 Humble Hawksbill, a flexible framework for writing robot software.
+- **Gazebo**: A powerful robot simulation tool that allows for testing and development in a simulated environment.
+- **SLAM Toolkit**: Simultaneous Localization and Mapping (SLAM) toolkit used for mapping and navigation.
+- **Nav 2**: The Navigation 2 stack in ROS 2, used for autonomous navigation of robots.
+- **OpenCV**: Open Source Computer Vision Library, used for image processing and computer vision tasks.
+- **Rviz2**: A 3D visualization tool for ROS 2, used to visualize the state of the robot and its environment.
+
+</div>
 
 ## Folder Structure 
 
