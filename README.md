@@ -129,3 +129,6 @@ bot_ws/
 ```
 ## Result
 ## Conclusions
+This project aims to develop a versatile robotic system that combines autonomous and manual capabilities to enhance operational efficiency, reduce costs, improve safety, ensure accuracy, and promote sustainability across industries. 
+These achievements will showcase the robot's capabilities and demonstrate its potential impact in various real-world applications.
+
