@@ -133,7 +133,6 @@ bot_ws/
 Run the following on the dev machine:
 ```
 ros2 launch articubot_one launch_sim.launch.py world:=src/articubot_one/worlds/obstacles.world 
-
 ```
 
 ### Physical Bot
@@ -148,7 +147,6 @@ Run the following on the bot terminal:
 Run the following on the dev machine:
 ```
 ros2 launch articubot_one joystick.launch.py 
-
 ```
 
 #### To run the camera :
@@ -170,7 +168,6 @@ Run the following on the bot terminal:
 #### GUI in Rviz2:
 ```
 ros2 run rviz2 rviz2 -d src/articubot_one/config/main.rviz 
-
 ```
 
 #### SLAM Map:
