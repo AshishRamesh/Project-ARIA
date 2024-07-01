@@ -16,7 +16,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 - [Technologies Used](#technologies-used)
 - [Packages Used](#packages-used)
 - [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
+- [Folder Structure](#Folder-Structure)
 - [Running the Application](#running-the-application)
 - [Authors](#authors)
 - [Result](#Result)
@@ -90,8 +90,11 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Li-Po Battery +ve            | 12v Vin of MD, In+ of BC   | Supplying equal power to both Motor Driver and BC by making it short             |
 | GND Pins                     | Common Ground              | All the GND Pins are shorted to make One common Ground                           |
 
+
 ##Folder Structure 
-### Dev Machine Structure 
+
+### Dev Machine Structure
+```
 dev_ws/
 ├── build/
 ├── install/
@@ -100,8 +103,9 @@ dev_ws/
     ├── articubot_one/
     ├── serial_demo_msgs/
     └── ball_tracker/
-
+```
 ###Bot Workspace Structure 
+```
 bot_ws/
 ├── build/
 ├── install/
@@ -110,5 +114,6 @@ bot_ws/
     ├── articubot_one/
     ├── serial/
     └── different_drive_arduino/
+```
 ## Result
 ## Conclusions
