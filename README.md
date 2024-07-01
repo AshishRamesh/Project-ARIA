@@ -11,7 +11,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 
 - [Demo](#Demo)
 - [Components](#Components-required-with-Bill-of-Materials)
-- [Circuit](#Pinout-Diagram)
+- [Hardware](#Hardware)
 - [Code Base](#)
 - [Technologies Used](#technologies-used)
 - [Packages Used](#packages-used)
@@ -61,7 +61,8 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://www.amazon.com/DC-Geared-Motor-Encoder-Robot/dp/B07Y3N1CVX) |
 | Cooling system           | 1        | Raspberry Pi Cooling system (aluminum case with Double fans)           | [Cooling System](https://www.amazon.com/Raspberry-Aluminum-Heatsink-Cooling-Cooler/dp/B07349HT26) |
 
-## Pinout Diagram
+## Hardware 
+### Pinout Diagram
 ![image](assets/pinout_diagram.jpeg)
 ### Table for Pin Connections
 
@@ -91,9 +92,10 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | GND Pins                     | Common Ground              | All the GND Pins are shorted to make One common Ground                           |
 
 
-##Folder Structure 
+## Folder Structure 
 
 ### Dev Machine Structure
+
 ```
 dev_ws/
 ├── build/
@@ -104,7 +106,8 @@ dev_ws/
     ├── serial_demo_msgs/
     └── ball_tracker/
 ```
-###Bot Workspace Structure 
+### Bot Workspace Structure 
+
 ```
 bot_ws/
 ├── build/
