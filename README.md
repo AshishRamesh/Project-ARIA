@@ -26,12 +26,14 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 ### Demo Videos
 ### Progress Images
 #### Simulation 
-![image](assets/warehouse.jpeg)
+![image](assets/warehouse.png)
 <p align="justify">
 Fig : Image of custom warehouse  
+  
 ![image](assets/map.jpeg)
 <p align="justify">
 Fig : Map of warehouse genrated by SLAM Toolkit
+  
 #### Physical Prototype
 
 
