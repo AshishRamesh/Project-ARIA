@@ -14,11 +14,8 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 - [Hardware](#Hardware)
 - [Code Base](#)
 - [Technologies Used](#Technologies-Used)
-- [Packages Used](#packages-used)
-- [Getting Started](#getting-started)
 - [Folder Structure](#Folder-Structure)
 - [Running the Application](#running-the-application)
-- [Authors](#authors)
 - [Result](#Result)
 - [Conclusions](#Conclusions)
 
