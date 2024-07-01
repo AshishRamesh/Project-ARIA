@@ -22,6 +22,18 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 - [Result](#Result)
 - [Conclusions](#Conclusions)
 
+## Demo
+### Demo Videos
+### Progress Images
+#### Simulation 
+![image](assets/warehouse.jpeg)
+<p align="justify">
+Fig : Image of custom warehouse  
+![image](assets/map.jpeg)
+<p align="justify">
+Fig : Map of warehouse genrated by SLAM Toolkit
+#### Physical Prototype
+
 
 ## Components required with Bill of Materials
 ### Components That are Already  Acquired / Owned :
@@ -75,6 +87,6 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 | Li-Po Battery +ve            | 12v Vin of MD, In+ of BC   | Supplying equal power to both Motor Driver and BC by making it short             |
 | GND Pins                     | Common Ground              | All the GND Pins are shorted to make One common Ground                           |
 
-## Demo Video
+
 ## Result
 ## Conclusions
