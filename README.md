@@ -141,7 +141,7 @@ ros2 launch articubot_one launch_sim.launch.py world:=src/articubot_one/worlds/o
 
 Run the following on the bot terminal:
 ```
-
+ros2 launch articubot_one launch_robot.launch.py 
 ```
 
 Run the following on the dev machine:
@@ -160,7 +160,9 @@ Run the following on the bot terminal:
 
 Run the following on the bot terminal:
 ```
+ros2 launch articubot_one rplidar.launch.py
 
+ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB1 -p serial_baudrate:=115200 -p frame_id:=laser_frame -p angle_compensate:=true -p scan_mode:=Standard
 ```
 
 ### To run Autonomous features :
