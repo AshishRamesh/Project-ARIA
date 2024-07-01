@@ -15,7 +15,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 - [Code Base](#)
 - [Technologies Used](#Technologies-Used)
 - [Folder Structure](#Folder-Structure)
-- [Running the Application](#running-the-application)
+- [Running A.R.I.A](# Running A.R.I.A)
 - [Result](#Result)
 - [Conclusions](#Conclusions)
 
@@ -127,6 +127,58 @@ bot_ws/
     ├── serial/
     └── different_drive_arduino/
 ```
+## Running A.R.I.A
+### Simulation 
+
+Run the following on the dev machine:
+```
+
+```
+
+### Physical Bot
+
+##### To run the bot :
+
+Run the following on the dev machine:
+```
+
+```
+Run the following on the bot terminal:
+```
+
+```
+
+#### To run the camera :
+
+Run the following on the bot terminal:
+```
+
+```
+
+#### To run the lidar :
+
+Run the following on the bot terminal:
+```
+
+```
+
+### To run Autonomous features :
+
+#### GUI in Rviz2:
+```
+
+```
+
+#### SLAM Map:
+```
+
+```
+
+#### For Autonomous navigation :
+```
+
+```
+
 ## Result
 ## Conclusions
 This project aims to develop a versatile robotic system that combines autonomous and manual capabilities to enhance operational efficiency, reduce costs, improve safety, ensure accuracy, and promote sustainability across industries. 
