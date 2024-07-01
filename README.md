@@ -9,7 +9,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 
 ## Table of Contents
 
-- [Demo]()
+- [Demo](#Demo)
 - [Components](#Components-required-with-Bill-of-Materials)
 - [Circuit](#Pinout-Diagram)
 - [Code Base](#)
