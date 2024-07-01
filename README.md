@@ -128,6 +128,12 @@ bot_ws/
     └── different_drive_arduino/
 ```
 ## Running A.R.I.A
+
+Source the Workspace:
+```
+source install/setup.bash
+```
+
 ### Simulation 
 
 Run the following on the dev machine:
@@ -153,7 +159,7 @@ ros2 launch articubot_one joystick.launch.py
 
 Run the following on the bot terminal:
 ```
-
+ros2 launch articubot_one camera.launch.py
 ```
 
 #### To run the lidar :
