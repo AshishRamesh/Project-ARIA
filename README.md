@@ -132,6 +132,7 @@ bot_ws/
 
 Run the following on the dev machine:
 ```
+ros2 launch articubot_one launch_sim.launch.py world:=src/articubot_one/worlds/obstacles.world 
 
 ```
 
@@ -139,12 +140,14 @@ Run the following on the dev machine:
 
 ##### To run the bot :
 
-Run the following on the dev machine:
+Run the following on the bot terminal:
 ```
 
 ```
-Run the following on the bot terminal:
+
+Run the following on the dev machine:
 ```
+ros2 launch articubot_one joystick.launch.py 
 
 ```
 
@@ -166,6 +169,7 @@ Run the following on the bot terminal:
 
 #### GUI in Rviz2:
 ```
+ros2 run rviz2 rviz2 -d src/articubot_one/config/main.rviz 
 
 ```
 
