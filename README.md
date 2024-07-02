@@ -41,7 +41,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 
 #### Physical Prototype
 <p align="center">
-  <img src="assets/proto_intial.jpg" alt="Initial Prototype">
+  <img src="assets/proto_initial.jpg" alt="Initial Prototype">
 </p>
 <p align="center"><b>Fig: Initial Prototype</b></p>
 
