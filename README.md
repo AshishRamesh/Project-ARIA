@@ -24,11 +24,12 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 ### Simulation Video
 
 <p align="center">
-  <video width="800" controls>
-    <source src="assets/sim_vid.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <a href="assets/sim_vid.mp4" download>
+    <img src="assets/video_thumbnail.png" alt="Simulation Video" width="600">
+  </a>
 </p>
+<p align="center"><b>Click the image to download the simulation video.</b></p>
+
 
 ### Progress Images
 ### Simulation 
