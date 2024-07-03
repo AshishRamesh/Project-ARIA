@@ -24,7 +24,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 
 ### Simulation Demo
 
-https://github.com/AshishRamesh/Project-ARIA/assets/81244883/c8874aec-856b-4ab9-95f4-a9547412f3bc
+https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-9f22-4ec968c25e12
 
 <p align="center"><b>Simulation Demo</b></p>
 
