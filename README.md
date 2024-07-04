@@ -54,6 +54,12 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 </p>
 <p align="center"><b>Fig: Initial Prototype</b></p>
 
+
+<p align="center">
+  <img src="assets/pcb.jpeg" alt="Custom PCB for Nano & Motor Driver" width="800">
+</p>
+<p align="center"><b>Fig: Custom PCB for Nano & Motor Driver</b></p>
+
 ## Components required with Bill of Materials
 ### Components That are Already  Acquired / Owned :
 
