@@ -205,12 +205,12 @@ ros2 run rviz2 rviz2 -d src/articubot_one/config/main.rviz
 
 #### SLAM Map:
 ```
-
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/articubot_one/config/mapper_params_online_async.yaml
 ```
 
 #### For Autonomous navigation :
 ```
-
+ros2 launch nav2_bringup navigation_launch.py 
 ```
 
 ## Result
