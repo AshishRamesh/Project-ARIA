@@ -150,6 +150,12 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 - `OpenCV`: Open Source Computer Vision Library, used for image processing and computer vision tasks.
 - `Rviz2`: A 3D visualization tool for ROS 2, used to visualize the state of the robot and its environment.
 
+The assests used for the simulation world (racks , boxes etc) is from an open source platform called AWS Robomaker . The world is a custom , developed by us .
+
+<p>
+  <a href="https://github.com/aws-robotics/aws-robomaker-small-warehouse-world">View AWS Robomaker Repo</a>
+</p>
+
 </div>
 
 ## Folder Structure 
