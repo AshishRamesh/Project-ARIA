@@ -1,4 +1,5 @@
 # Project-ARIA
+# Autonomous Robotic Integration for Automation
 ## Introduction
 <p align="justify">
 Inefficiencies and safety risks in warehouses, healthcare, public spaces, manufacturing, infrastructure, and agriculture arise from reliance on manual and semi-automated systems. These systems lead to higher labor costs, operational delays, and errors. Advanced autonomous navigation solutions are needed to streamline operations, enhance accuracy, ensure safety, and improve scalability. Implementing such technology can significantly reduce operational costs, enhance the quality of service, and boost productivity across these sectors.
@@ -117,6 +118,7 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 
 <div style="border: 1px solid black; padding: 10px;">
 
+- ``ros_arduino_bridge``: Turns an Arduino into a motor controller! It provides a simple serial interface to communicate with a high-level computer running ROS, and generates the appropriate PWM signals for a motor driver, to drive two motors.
 - ``ROS 2 Humble``: The Robot Operating System (ROS) 2 Humble Hawksbill, a flexible framework for writing robot software.
 - `Gazebo`: A powerful robot simulation tool that allows for testing and development in a simulated environment.
 - `SLAM Toolkit`: Simultaneous Localization and Mapping (SLAM) toolkit used for mapping and navigation.
