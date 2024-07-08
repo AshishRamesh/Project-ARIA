@@ -13,7 +13,7 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 - [Demo](#Demo)
 - [Components](#Components-required-with-Bill-of-Materials)
 - [Hardware](#Hardware)
-- [Code Base](#)
+- [Code Base](#Code-Base)
 - [Technologies Used](#Technologies-Used)
 - [Folder Structure](#Folder-Structure)
 - [Running A.R.I.A](#Running-A.R.I.A)
@@ -113,6 +113,26 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 | Buck converter out +         | 5v Vin                     | Reduced voltage power supply from BC to Pi                                       |
 | Li-Po Battery +ve            | 12v Vin of MD, In+ of BC   | Supplying equal power to both Motor Driver and BC by making it short             |
 | GND Pins                     | Common Ground              | All the GND Pins are shorted to make One common Ground                           |
+
+## Code Base
+
+### Simulation
+
+<p align="center">
+  <a href="https://github.com/AshishRamesh/Project-ARIA/source_code/sim">View Simulation Code</a>
+</p>
+
+### ROS Arduino Bridge 
+
+<p align="center">
+  <a href="https://github.com/AshishRamesh/Project-ARIA/source_code/ros_arduino_bridge">View ROS Arduino Bridge Code</a>
+</p>
+
+### Robot Code  
+
+<p align="center">
+  <a href="https://github.com/AshishRamesh/Project-ARIA/source_code/robot">View Robot Code</a>
+</p>
 
 ## Technologies Used
 
