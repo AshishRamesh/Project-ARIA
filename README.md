@@ -149,19 +149,19 @@ https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 ### Simulation
 
 <p align="center">
-  <a href="https://github.com/AshishRamesh/Project-ARIA/source_code/sim">View Simulation Code</a>
+  <a href="https://github.com/AshishRamesh/Project-ARIA/tree/main/source_code/sim/articubot_one">View Simulation Code</a>
 </p>
 
 ### ROS Arduino Bridge 
 
 <p align="center">
-  <a href="https://github.com/AshishRamesh/Project-ARIA/source_code/ros_arduino_bridge">View ROS Arduino Bridge Code</a>
+  <a href="https://github.com/AshishRamesh/Project-ARIA/tree/main/source_code/ros_arduino_bridge">View ROS Arduino Bridge Code</a>
 </p>
 
 ### Robot Code  
 
 <p align="center">
-  <a href="https://github.com/AshishRamesh/Project-ARIA/source_code/robot">View Robot Code</a>
+  <a href="https://github.com/AshishRamesh/Project-ARIA/tree/main/source_code/robot">View Robot Code</a>
 </p>
 
 ## Technologies Used
