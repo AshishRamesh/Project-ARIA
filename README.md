@@ -112,7 +112,6 @@ https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 | Arduino Nano             | 1        | Microcontroller board for Sending the signal from Pi to Motor driver   | [Arduino Nano](https://store.arduino.cc/products/arduino-nano) |
 | Slide Switches           | 2        | Switches for Powering Up or Down the Bot                               | [Slide Switch](https://robocraze.com/products/slide-switch-3-pin-2-way-spdt?variant=44698610237664&currency=INR&utm_term=&campaignid=21296821641&adgroupid=&campaign=21296821641&gad_source=1) |
 | Wheels                   | 2        | To Run the Bot Forward, Reverse or in Required Direction               | [Wheels](https://robu.in/product/robot-smart-car-wheel-tyre-bo-motor/) |
-|--------------------------|----------|------------------------------------------------------------------------|------------------------------------|
 | Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://robu.in/product/n25-6v-550rpm-metal-gear-motor-with-encoder-d-type-shaft/?gad_source=1) |
 
 ## Hardware 
