@@ -30,6 +30,8 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 <p align="center"><b>Simulation Demo</b></p>
 
 
+https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
+<p align="center"><b>Real Time Lidar Data in GUI</b></p>
 
 ### Progress Images
 ### Simulation 
