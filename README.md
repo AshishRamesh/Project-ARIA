@@ -26,9 +26,17 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 ### Simulation Demo
 
 https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-9f22-4ec968c25e12
-
 <p align="center"><b>Simulation Demo</b></p>
 
+### Physical Demo
+https://github.com/user-attachments/assets/6c1fe898-c78a-4bbf-abf6-0b8a9d032782
+<p align="center"><b>Real Time Lidar Data in GUI</b></p>
+
+https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
+<p align="center"><b>Real Time Lidar Data in GUI</b></p>
+
+https://github.com/user-attachments/assets/dfa1f675-97e4-41e5-b691-c56bd6adf495
+<p align="center"><b>Real Time Lidar Data in GUI</b></p>
 
 https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 <p align="center"><b>Real Time Lidar Data in GUI</b></p>
