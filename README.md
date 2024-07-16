@@ -33,16 +33,14 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 https://github.com/user-attachments/assets/dfa1f675-97e4-41e5-b691-c56bd6adf495
 <p align="center"><b>Physical Demo</b></p>
 
-https://github.com/user-attachments/assets/6c1fe898-c78a-4bbf-abf6-0b8a9d032782
+https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
+<p align="center"><b>Real Time Lidar Data in GUI</b></p>
+
+https://github.com/user-attachments/assets/80d79d3a-1c21-490b-bc42-bdcebb4df903
 <p align="center"><b>Real Time Mapping</b></p>
 
 https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
 <p align="center"><b>Real Time Autonomous Navigation</b></p>
-
-https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
-<p align="center"><b>Real Time Lidar Data in GUI</b></p>
-
-
 
 ### Progress Images
 ### Simulation 
@@ -283,22 +281,18 @@ ros2 launch nav2_bringup navigation_launch.py
 ```
 
 ## Result
-### Results
 
-Our robot now successfully navigates autonomously using Simultaneous Localization and Mapping (SLAM). Here’s a detailed breakdown of its capabilities and the process:
+Our Project ARIA achieved significant milestones in autonomous navigation and operational efficiency. The robot successfully navigated through various indoor environments, including warehouses and simulated spaces, using advanced sensors and algorithms. Key accomplishments include:
 
-1. **Initial Mapping**: During the initial run, the robot performs SLAM to create a map of the environment. This involves using its sensors (e.g., LIDAR, camera) to detect obstacles and construct a map. The manual mapping phase is crucial to ensure that the robot understands the layout of the area, including walls, furniture, and other static objects.
+- **Accurate Mapping**: Utilized SLAM Toolkit to generate precise maps of the environment, aiding in efficient navigation.
+- **Reliable Navigation**: Implemented Nav2 stack for autonomous navigation, allowing the robot to follow designated paths and avoid obstacles.
+- **Effective Sensor Integration**: Seamlessly integrated RP Lidar, Pi camera, and other sensors for real-time data collection and processing.
+- **Stable Communication**: Ensured robust communication between the Raspberry Pi, Arduino Nano, and motor drivers through the ROS 2 framework.
+- **Simulation Success**: Verified robot behavior and navigation algorithms in a simulated environment using Gazebo, ensuring readiness for real-world deployment.
+- **Operational Efficiency**: Demonstrated the ability to automate routine tasks, enhancing productivity and reducing human intervention.
 
-2. **Autonomous Navigation**: Once the initial mapping is complete, the robot can navigate on its own. It uses the map created during the first run to understand its surroundings and localize itself within the environment. This localization process allows the robot to know its position relative to the map.
+## Conclusion
 
-3. **Path Planning**: When given a target location, the robot calculates the shortest path to the destination using algorithms such as Dijkstra’s or A*. This ensures efficient and quick navigation, avoiding obstacles and optimizing travel time.
+Project ARIA presents a versatile and scalable solution for autonomous navigation across various industries. By leveraging ROS 2 Humble, Gazebo, SLAM Toolkit, Nav2, OpenCV, and Rviz2, we developed a robust system capable of enhancing operational efficiency, reducing errors, and ensuring safety. The successful integration of advanced sensors and algorithms positions ARIA as a comprehensive tool for improving productivity and service quality in warehouses, healthcare, public spaces, manufacturing, and agriculture.
 
-4. **Real-time Adaptation**: As the robot navigates, it continuously updates its understanding of the environment. If it encounters new obstacles or changes in the environment, it dynamically adjusts its path to ensure safe and efficient navigation.
-
-5. **Performance Evaluation**: During our tests, the robot consistently demonstrated the ability to accurately map the environment and navigate to specified locations without human intervention. The path planning algorithm effectively calculated the shortest routes, reducing travel time and avoiding collisions.
-
-
-## Conclusions
-This project aims to develop a versatile robotic system that combines autonomous and manual capabilities to enhance operational efficiency, reduce costs, improve safety, ensure accuracy, and promote sustainability across industries. 
-These achievements will showcase the robot's capabilities and demonstrate its potential impact in various real-world applications.
-
+The project's success highlights the potential of autonomous robots in transforming traditional workflows, providing a strong foundation for future advancements and applications in autonomous technology.
