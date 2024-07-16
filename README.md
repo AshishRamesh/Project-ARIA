@@ -70,6 +70,26 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 </p>
 <p align="center"><b>Fig: Physical PCB </b></p>
 
+<p align="center">
+  <img src="assets/map.png" alt="Physical Map" width="800">
+</p>
+<p align="center"><b>Fig: Map generated in Real Environment </b></p>
+
+<p align="center">
+  <img src="assets/nav.png" alt="Cost Map" width="800">
+</p>
+<p align="center"><b>Fig: Cost Map for Autonomous Navigation </b></p>
+
+<p align="center">
+  <img src="assets/arrow.jpg" alt="Nav GUI" width="800">
+</p>
+<p align="center"><b>Fig: Marker to set Waypoint for ARIA To Navigate to </b></p>
+
+<p align="center">
+  <img src="assets/rqt_graph.png" alt="RQT Graph" width="800">
+</p>
+<p align="center"><b>Fig: Graph of all the communication taking place between PI, dev Machine , different sensors & Controller </b></p>
+
 ## Components required with Bill of Materials
 ### Components That are Already  Acquired / Owned :
 
