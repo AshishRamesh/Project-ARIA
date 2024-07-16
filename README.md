@@ -73,6 +73,11 @@ https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 <p align="center"><b>Fig: Physical PCB </b></p>
 
 <p align="center">
+  <img src="assets/phy_bot_V2.png" alt="Physical PCB" width="800">
+</p>
+<p align="center"><b>Fig: ARIA Version 2 (Without Top Cover)  </b></p>
+
+<p align="center">
   <img src="assets/map.png" alt="Physical Map" width="800">
 </p>
 <p align="center"><b>Fig: Map generated in Real Environment </b></p>
@@ -90,7 +95,7 @@ https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 <p align="center">
   <img src="assets/rqt_graph.png" alt="RQT Graph" width="800">
 </p>
-<p align="center"><b>Fig: Graph of all the communication taking place between PI, dev Machine , different sensors & Controller </b></p>
+<p align="center"><b>Fig: Graph of all the communication taking place between PI, dev Machine, different sensors & Controller </b></p>
 
 ## Components required with Bill of Materials
 ### Components That are Already  Acquired / Owned :
