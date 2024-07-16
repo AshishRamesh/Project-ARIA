@@ -107,18 +107,13 @@ https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 | Buck Converter           | 1        | Step down or Step up Voltage device                                    | [Buck Converter](https://www.amazon.com/LM2596-Converter-Power-Supply-Module/dp/B00C0KL1OM) |
 | Li-Po battery            | 1        | 11.5V Li-Po battery for Power Requirements                             | [LiPo battery 3s](https://robu.in/product/orange-2200mah-3s-30c60c-lithium-polymer-battery-pack-lipo/?gad_source=1) |
 | Lidar                    | 1        | RP Lidar A1M8 For Mapping the required area                            | [Lidar A1M8](https://www.slamtec.com/en/Lidar/A1) |
-| Caster wheel             | 1        | For Smooth running and weight Balancing of the Bot                     | [Castor wheel](https://www.amazon.com/Caster-Wheels/s?k=Caster+Wheels) |
-| Motor Driver             | 1        | L298N Motor Driver to Run the Motors                                   | [Motor Driver](https://www.amazon.com/HiLetgo-Controller-Stepper-Heatsink-Arduino/dp/B00J4Z6892) |
+| Caster wheel             | 1        | For Smooth running and weight Balancing of the Bot                     | [Castor wheel](https://robocraze.com/products/universal-swivel-castor-wheels?variant=40192922419353&srsltid=AfmBOooiWRJoRBm5rnkGFQpHAqFY0xXRoOuZ-QhlQlLtRI4UXcjVM7mSQ7w) |
+| Motor Driver             | 1        | L298N Motor Driver to Run the Motors                                   | [Motor Driver](https://robocraze.com/products/l298-motor-driver-board?variant=40192434208921&srsltid=AfmBOorhPHiYjAjqcaVhHL0KzTbfXKlmxavekdD8c_BgGnJfWtjOktt2lVg) |
 | Arduino Nano             | 1        | Microcontroller board for Sending the signal from Pi to Motor driver   | [Arduino Nano](https://store.arduino.cc/products/arduino-nano) |
-| Slide Switches           | 2        | Switches for Powering Up or Down the Bot                               | [Slide Switch](https://www.amazon.com/Slide-Switches/s?k=Slide+Switches) |
-| Wheels                   | 2        | To Run the Bot Forward, Reverse or in Required Direction               | [Wheels](https://www.amazon.com/Robot-Wheels/s?k=Robot+Wheels) |
-
-### Components to be Acquired
-
-| Component                | Quantity | Description                                                            | Links to Products                  |
+| Slide Switches           | 2        | Switches for Powering Up or Down the Bot                               | [Slide Switch](https://robocraze.com/products/slide-switch-3-pin-2-way-spdt?variant=44698610237664&currency=INR&utm_term=&campaignid=21296821641&adgroupid=&campaign=21296821641&gad_source=1) |
+| Wheels                   | 2        | To Run the Bot Forward, Reverse or in Required Direction               | [Wheels](https://robu.in/product/robot-smart-car-wheel-tyre-bo-motor/) |
 |--------------------------|----------|------------------------------------------------------------------------|------------------------------------|
-| Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://www.amazon.com/DC-Geared-Motor-Encoder-Robot/dp/B07Y3N1CVX) |
-| Cooling system           | 1        | Raspberry Pi Cooling system (aluminum case with Double fans)           | [Cooling System](https://www.amazon.com/Raspberry-Aluminum-Heatsink-Cooling-Cooler/dp/B07349HT26) |
+| Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://robu.in/product/n25-6v-550rpm-metal-gear-motor-with-encoder-d-type-shaft/?gad_source=1) |
 
 ## Hardware 
 ### Pinout Diagram
