@@ -283,6 +283,21 @@ ros2 launch nav2_bringup navigation_launch.py
 ```
 
 ## Result
+### Results
+
+Our robot now successfully navigates autonomously using Simultaneous Localization and Mapping (SLAM). Here’s a detailed breakdown of its capabilities and the process:
+
+1. **Initial Mapping**: During the initial run, the robot performs SLAM to create a map of the environment. This involves using its sensors (e.g., LIDAR, camera) to detect obstacles and construct a map. The manual mapping phase is crucial to ensure that the robot understands the layout of the area, including walls, furniture, and other static objects.
+
+2. **Autonomous Navigation**: Once the initial mapping is complete, the robot can navigate on its own. It uses the map created during the first run to understand its surroundings and localize itself within the environment. This localization process allows the robot to know its position relative to the map.
+
+3. **Path Planning**: When given a target location, the robot calculates the shortest path to the destination using algorithms such as Dijkstra’s or A*. This ensures efficient and quick navigation, avoiding obstacles and optimizing travel time.
+
+4. **Real-time Adaptation**: As the robot navigates, it continuously updates its understanding of the environment. If it encounters new obstacles or changes in the environment, it dynamically adjusts its path to ensure safe and efficient navigation.
+
+5. **Performance Evaluation**: During our tests, the robot consistently demonstrated the ability to accurately map the environment and navigate to specified locations without human intervention. The path planning algorithm effectively calculated the shortest routes, reducing travel time and avoiding collisions.
+
+
 ## Conclusions
 This project aims to develop a versatile robotic system that combines autonomous and manual capabilities to enhance operational efficiency, reduce costs, improve safety, ensure accuracy, and promote sustainability across industries. 
 These achievements will showcase the robot's capabilities and demonstrate its potential impact in various real-world applications.
