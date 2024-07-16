@@ -30,7 +30,7 @@ https://github.com/AshishRamesh/Project-ARIA/assets/81244883/e79a8316-d9ba-47e1-
 
 ### Physical Demo
 
-https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
+https://github.com/user-attachments/assets/dfa1f675-97e4-41e5-b691-c56bd6adf495
 <p align="center"><b>Physical Demo</b></p>
 
 https://github.com/user-attachments/assets/6c1fe898-c78a-4bbf-abf6-0b8a9d032782
@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/6c1fe898-c78a-4bbf-abf6-0b8a9d032782
 https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
 <p align="center"><b>Real Time Autonomous Navigation</b></p>
 
-https://github.com/user-attachments/assets/dfa1f675-97e4-41e5-b691-c56bd6adf495
+https://github.com/user-attachments/assets/36f9bdfe-767a-4070-a45c-221e4a039a4b
 <p align="center"><b>Real Time Lidar Data in GUI</b></p>
 
 
