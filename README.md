@@ -280,6 +280,28 @@ ros2 launch slam_toolbox online_async_launch.py params_file:=./src/articubot_one
 ros2 launch nav2_bringup navigation_launch.py 
 ```
 
+### For Ball Tracking :
+
+#### For Launching Camera :
+```
+ros2 launch articubot_one camera.launch.py 
+```
+
+#### For fixing compressing and decompressing vid :
+```
+ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed
+```
+
+#### For viewing feed :
+```
+ros2 run rqt_image_view rqt_image_view
+```
+
+#### For ball tracker :
+```
+ros2 launch ball_tracker ball_tracker.launch.py params_file:=src/articubot_one/config/ball_tracker_params_robot.yaml image_topic:=/camera/image_raw/uncompressed
+```
+
 ## Result
 
 Our Project ARIA achieved significant milestones in autonomous navigation and operational efficiency. The robot successfully navigated through various indoor environments, including warehouses and simulated spaces, using advanced sensors and algorithms. Key accomplishments include:
