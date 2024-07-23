@@ -277,7 +277,7 @@ ros2 launch slam_toolbox online_async_launch.py params_file:=./src/articubot_one
 
 #### For Autonomous navigation :
 ```
-ros2 launch nav2_bringup navigation_launch.py 
+ros2 launch nav2_bringup navigation_launch.py params_file:=src/articubot_one/config/nav2_params.yaml
 ```
 
 ### For Ball Tracking :
