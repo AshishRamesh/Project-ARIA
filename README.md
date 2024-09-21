@@ -12,8 +12,10 @@ Our solution is a ROS-based autonomous navigation robot designed for versatile a
 
 https://github.com/user-attachments/assets/424f8ee9-434c-47ae-aa84-b2928590af5a
 <p align="center"><b>SemiCon Demo</b></p>
+
 ### Pinout Diagram updated with VSDSQUADRON Mini
 ![image](assets/Block diagram and Circuit connection (1)_page-0001.jpg)
+
 ### Pics from SemiCon 2024 @ VSD booth
 ![image](assets/WhatsApp Image 2024-09-12 at 14.15.05_d6cea200.jpg)
 ![image](assets/WhatsApp Image 2024-09-12 at 14.17.19_ceb42063.jpg)
