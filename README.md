@@ -1,4 +1,4 @@
-# Project-ARIA
+# Project-ARIA for SemiCon 2024 VLSI System Design (VSD)
 # Autonomous Robotic Integration for Automation
 ## Introduction
 <p align="justify">
@@ -7,6 +7,11 @@ Inefficiencies and safety risks in warehouses, healthcare, public spaces, manufa
 ## Overview
 <p align="justify">
 Our solution is a ROS-based autonomous navigation robot designed for versatile applications across various industries. It utilizes advanced sensors and algorithms to navigate indoor environments such as warehouses, hospitals, public spaces, manufacturing facilities, and agricultural sites. By automating routine tasks, our robot enhances operational efficiency, reduces human error, and improves safety. Its innovative design allows for seamless integration into existing workflows, scalable deployment, and adaptability to different use cases, making it a comprehensive solution for improving productivity and service quality across multiple sectors.
+
+### SemiCon Demo
+
+https://github.com/user-attachments/assets/424f8ee9-434c-47ae-aa84-b2928590af5a
+<p align="center"><b>SemiCon Demo</b></p>
 
 ## Table of Contents
 
