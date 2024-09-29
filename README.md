@@ -18,6 +18,12 @@ https://github.com/user-attachments/assets/424f8ee9-434c-47ae-aa84-b2928590af5a
   <img src="assets/Block diagram and Circuit connection (1)_page-0001.jpg" alt=" Pin diagram" width="800">
 </p>
 
+### VSDSQUADRON Mini Code  
+
+<p align="center">
+  <a href="https://github.com/AshishRamesh/Project-ARIA/tree/Semicon_VSD/source_code/VSD_Code">View VSDSQUADRON Mini Code</a>
+</p>
+
 
 <p align="center">
   <img src="assets/WhatsApp Image 2024-09-12 at 14.15.05_d6cea200.jpg" alt=" Pin diagram" width="800">
@@ -35,11 +41,7 @@ https://github.com/user-attachments/assets/424f8ee9-434c-47ae-aa84-b2928590af5a
   <img src="assets/WhatsApp Image 2024-09-12 at 14.20.59_67284506.jpg" alt=" Pin diagram" width="800">
 </p>
 
-### VSDSQUADRON Mini Code  
 
-<p align="center">
-  <a href="https://github.com/AshishRamesh/Project-ARIA/tree/Semicon_VSD/source_code/VSD_Code">View VSDSQUADRON Mini Code</a>
-</p>
 
 
 ## Table of Contents
