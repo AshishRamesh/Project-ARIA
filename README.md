@@ -24,6 +24,8 @@ https://github.com/user-attachments/assets/424f8ee9-434c-47ae-aa84-b2928590af5a
   <a href="https://github.com/AshishRamesh/Project-ARIA/tree/Semicon_VSD/source_code/VSD_Code">View VSDSQUADRON Mini Code</a>
 </p>
 
+https://github.com/user-attachments/assets/005c7e4c-dd3b-4236-9647-8dda58c89fea
+<p align="center"><b>Ball Track Demo</b></p>
 
 <p align="center">
   <img src="assets/WhatsApp Image 2024-09-12 at 14.15.05_d6cea200.jpg" alt=" Pin diagram" width="800">
