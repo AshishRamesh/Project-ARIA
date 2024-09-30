@@ -162,8 +162,7 @@ https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
 | Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://robu.in/product/n25-6v-550rpm-metal-gear-motor-with-encoder-d-type-shaft/?gad_source=1) |
 
 ## Hardware 
-### Pinout Diagram
-![image](assets/pinout_diagram.jpeg)
+
 ### Table for Pin Connections
 
 | Component                    | Pin Configuration          | Description                                                                      |
