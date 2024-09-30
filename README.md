@@ -149,21 +149,21 @@ https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
 
 | Component                | Quantity | Description                                                            | Links to Products                  |
 |--------------------------|----------|------------------------------------------------------------------------|------------------------------------|
+| VSDSquadron mini | 1        | Microcontroller board for Sending the signal from Nano to Motor driver  | [VSDSquadron Mini](https://www.vlsisystemdesign.com/vsdsquadronmini/) |
 | Raspberry Pi 3b+         | 1        | Microprocessor Board                                                   | [Raspberry Pi 3b+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) |
+| Arduino Nano | 1        | Microcontroller board for Sending the signal from Pi to VSDSquadron mini  | [Arduino Nano](https://store-usa.arduino.cc/products/arduino-nano) |
 | Pi cam                   | 1        | Standard Pi Cam for Surveillance                                       | [Pi camera](https://www.raspberrypi.org/products/camera-module-v2/) |
 | Buck Converter           | 1        | Step down or Step up Voltage device                                    | [Buck Converter](https://www.amazon.com/LM2596-Converter-Power-Supply-Module/dp/B00C0KL1OM) |
 | Li-Po battery            | 1        | 11.5V Li-Po battery for Power Requirements                             | [LiPo battery 3s](https://robu.in/product/orange-2200mah-3s-30c60c-lithium-polymer-battery-pack-lipo/?gad_source=1) |
 | Lidar                    | 1        | RP Lidar A1M8 For Mapping the required area                            | [Lidar A1M8](https://www.slamtec.com/en/Lidar/A1) |
 | Caster wheel             | 1        | For Smooth running and weight Balancing of the Bot                     | [Castor wheel](https://robocraze.com/products/universal-swivel-castor-wheels?variant=40192922419353&srsltid=AfmBOooiWRJoRBm5rnkGFQpHAqFY0xXRoOuZ-QhlQlLtRI4UXcjVM7mSQ7w) |
 | Motor Driver             | 1        | L298N Motor Driver to Run the Motors                                   | [Motor Driver](https://robocraze.com/products/l298-motor-driver-board?variant=40192434208921&srsltid=AfmBOorhPHiYjAjqcaVhHL0KzTbfXKlmxavekdD8c_BgGnJfWtjOktt2lVg) |
-| Arduino Nano             | 1        | Microcontroller board for Sending the signal from Pi to Motor driver   | [Arduino Nano](https://store.arduino.cc/products/arduino-nano) |
 | Slide Switches           | 2        | Switches for Powering Up or Down the Bot                               | [Slide Switch](https://robocraze.com/products/slide-switch-3-pin-2-way-spdt?variant=44698610237664&currency=INR&utm_term=&campaignid=21296821641&adgroupid=&campaign=21296821641&gad_source=1) |
 | Wheels                   | 2        | To Run the Bot Forward, Reverse or in Required Direction               | [Wheels](https://robu.in/product/robot-smart-car-wheel-tyre-bo-motor/) |
 | Gear Motor Encoder D type| 2        | Gear motor Encoder D type to maintain or equalize the Speed of Motors  | [Encoded Motors](https://robu.in/product/n25-6v-550rpm-metal-gear-motor-with-encoder-d-type-shaft/?gad_source=1) |
 
 ## Hardware 
-### Pinout Diagram
-![image](assets/pinout_diagram.jpeg)
+
 ### Table for Pin Connections
 
 | Component                    | Pin Configuration          | Description                                                                      |
@@ -171,10 +171,14 @@ https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
 | RP Lidar A1M8 Micro USB Port | USB Port 2                 | Lidar Connected to the Raspberry Pi’s USB Port 2                                 |
 | Arduino Nano Micro USB Port  | USB Port 1                 | Nano Connected to the Raspberry Pi’s USB Port 1                                  |
 | Pi camera                    | CSI Camera Port            | Camera Connected to the Raspberry Pi’s Camera port                               |
-| Motor Driver control pin 1   | PD6                        | CP1 of Motor driver connection to Microcontroller Nano                           |
-| Motor Driver control pin 2   | PD10                       | CP2 of Motor driver connection to Microcontroller Nano                           |
-| Motor Driver control pin 3   | PD9                        | CP3 of Motor driver connection to Microcontroller Nano                           |
-| Motor Driver control pin 4   | PD5                        | CP4 of Motor driver connection to Microcontroller Nano                           |
+| VSDSquadron mini PC7    | PD6                        | PC7 of VSDSquadron mini connection to Microcontroller Nano                           |
+| VSDSquadron mini  PD2   | PD10                       | PD2 of VSDSquadron mini connection to Microcontroller Nano                           |
+| VSDSquadron mini PD3   | PD9                        | PD3 VSDSquadron mini connection to Microcontroller Nano                           |
+| VSDSquadron mini PD4   | PD5                        | PD4 VSDSquadron mini connection to Microcontroller Nano                           |
+| VSDSquadron mini PC1   | IN1                        | VSDSquadron mini connection to Motor Driver                           |
+| VSDSquadron mini PC2   | IN2                        | VSDSquadron mini connection to Motor Driver                           |
+| VSDSquadron mini PC3   | IN3                        | VSDSquadron mini connection to Motor Driver                           |
+| VSDSquadron mini PC4   | IN4                        | VSDSquadron mini connection to Motor Driver                           |
 | Motor Driver 5V out          | Vin                        | Power supply to Arduino Nano from Motor Driver                                   |
 | Encoder Motor1 +ve           | OUT1                       | Motor1 Connections to Driver (To run the motor)                                  |
 | Encoder Motor1 -ve           | OUT2                       | Motor1 Connections to Driver                                                     |
