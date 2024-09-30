@@ -149,7 +149,7 @@ https://github.com/user-attachments/assets/6ad9fff8-bf34-49b5-b9a1-08f77d7b5e61
 
 | Component                | Quantity | Description                                                            | Links to Products                  |
 |--------------------------|----------|------------------------------------------------------------------------|------------------------------------|
-| VSDSquadron mini | 1        | Microcontroller board for Sending the signal from Pi to Motor driver  | [VSDSquadron Mini](https://www.vlsisystemdesign.com/vsdsquadronmini/) |
+| VSDSquadron mini | 1        | Microcontroller board for Sending the signal from Nano to Motor driver  | [VSDSquadron Mini](https://www.vlsisystemdesign.com/vsdsquadronmini/) |
 | Raspberry Pi 3b+         | 1        | Microprocessor Board                                                   | [Raspberry Pi 3b+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) |
 | Arduino Nano | 1        | Microcontroller board for Sending the signal from Pi to VSDSquadron mini  | [Arduino Nano](https://store-usa.arduino.cc/products/arduino-nano) |
 | Pi cam                   | 1        | Standard Pi Cam for Surveillance                                       | [Pi camera](https://www.raspberrypi.org/products/camera-module-v2/) |
